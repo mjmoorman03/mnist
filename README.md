@@ -6,5 +6,5 @@ The MNIST database is a large database of handwritten digits that is commonly us
 ## Usage
 First, ensure all requirements are installed by running `pip install -r requirements.txt`. Then, run `python3 mnist.py` after placing `num.png` in the same directory as the script. The output will be the n digits the algorithm thinks the image represents in the terminal. 
 
-## Example Digit
+## Example Digits
 ![Example Digit](num.png)
