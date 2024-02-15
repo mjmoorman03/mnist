@@ -77,6 +77,7 @@ def main():
     testImages, testLabels = formatData(testImages, testLabels)
 
     model = Net()
+
     train(model, trainImages, trainLabels)
     model.eval()
     test(model, testImages, testLabels)
